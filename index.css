@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: scroll;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.destacado {
+    color: orangered;
+}
+
+
+/* header */
+header{
+    position: fixed;
+    height: 150px;
+    width: 100%;
+}
+
+.head-container{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(24, 24, 78);
+}
+
+.head-container p{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(234, 234, 234);
+    
+}
+
+/* nav */
+
+.nav-container{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: -20 20px 0 20px;
+    background-color: white;
+
+}
+
+.nav-container li{
+    height: 50px;
+    color: rgb(70, 70, 70);
+    font-weight: bolder;
+    flex: 1;
+    background-color: rgb(246, 246, 246);
+    transition: background-color 0.3s color 0.3s;
+    padding-top: 15px;
+
+    }
+
+.nav-container li:hover{
+    background-color:  rgb(179, 177, 177);
+    color: rgb(0, 0, 0);
+}
+
+/*   social   */
+
+.social-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+    height: 50px;
+    gap: 60px;
+}
+
+.social-container li a{
+    font-size: x-large;
+}
+
+/* hero */
+
+ 
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.hero .img-container{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient( 
+        0deg,
+        rgba(0,0,0, 0.5), 
+        rgba(0,0,0, 0.5)
+    )
+    ,url(assets/Toha-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 60%;
+}
+
+.hero .date{
+    font-size: small;
+    margin-right: 40px;
+}
+
+.hero .img-container h3{
+    color: white;
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+
+.hero h5{
+    color: rgb(70, 70, 70);
+    text-align: justify;
+    padding: 10px 50px 0 50px;
+    font-weight: 500;
+    text-indent: 40px;
+    line-height: 1.5;
+}
+
+/* Opinión baner */
+
+.baner-container{
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    background-color: rgb(24, 24, 78);
+    color: rgb(234, 234, 234);
+    gap: 60px;
+    margin-bottom: 40px;
+    transition: background-color 0.3s color 0.3s;
+}
+
+.baner-container:hover{
+    background-color: rgb(79, 79, 166);
+}
+
+/* news container */
+
+.news-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 40px 40px 40px;
+    gap: 40px;
+
+}
+
+
+
+
+.news-container a{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    width: 100%;
+    height: 250px;
+    overflow: scroll;
+}
+
+.news-container a p{
+    font-size: small;
+}
+
+.news-container a .img-container1{
+    background-image: url(assets/Consuelo-Veloso.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.news-container a .img-container2{
+    background-image: url(assets/Consuelo-Veloso.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.news-container a .img-container3{
+    background-image: url(assets/Consuelo-Veloso.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+.news-container a .img-container4{
+    background-image: url(assets/Consuelo-Veloso.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.news-container a .img-container5{
+    background-image: url(assets/Consuelo-Veloso.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.news-container a .img-container6{
+    background-image: url(assets/Consuelo-Veloso.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.date{
+    font-weight: bold;
+    font-size: x-small;
+    text-align: end;
+    padding-top: 20px;
+}
+
+.news-container a .text p{
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5;
+}
+
+footer .footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(24, 24, 78);
+    color: white;
+}
+
+
+@media (min-width: 720px) {
+    
+    .hero .img-container{
+    height: 80%;
+    }
+
+    .hero .img-container
+
+
+    .news-container{
+       margin: 0 200px 0 200px;
+    }
+    
+}
